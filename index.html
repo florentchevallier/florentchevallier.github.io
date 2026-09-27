@@ -4,30 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Florent Chevallier</title>
-  <!-- Temporary: florentchevallier.github.io just mirrors the portfolio for now.
+  <!-- Temporary: florentchevallier.github.io just redirects to the portfolio for now.
        When this becomes a proper landing page (contact + links to several sites),
-       replace this file and drop the iframe. -->
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-    iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
-  </style>
+       replace this file and drop the redirect. -->
+  <meta http-equiv="refresh" content="0; url=/portfolio/">
+  <link rel="canonical" href="https://florentchevallier.github.io/portfolio/">
+  <script>
+    window.location.replace("/portfolio/");
+  </script>
 </head>
 <body>
-  <iframe
-    src="/portfolio/"
-    title="Florent Chevallier — portfolio"
-    loading="eager"
-    referrerpolicy="no-referrer-when-downgrade"
-  ></iframe>
+  <p>Redirecting to <a href="/portfolio/">florentchevallier.github.io/portfolio/</a>&hellip;</p>
 </body>
 </html>
